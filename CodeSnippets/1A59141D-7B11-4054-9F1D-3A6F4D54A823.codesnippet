@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>minit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark -
+#pragma mark Life Cycle
+
+
+
+#pragma mark -
+#pragma mark Instance Methods
+
+
+
+#pragma mark -
+#pragma mark Delegate Methods
+
+
+
+#pragma mark -
+#pragma mark Button Action Methods
+
+
+
+#pragma mark -
+#pragma mark Memory Warning
+
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1A59141D-7B11-4054-9F1D-3A6F4D54A823</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Init Mark</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Init Mark</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
