@@ -7,7 +7,7 @@
 	<key>DVTConsoleDebuggerInputTextFont</key>
 	<string>Menlo-Bold - 11.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
-	<string>0 0 0 1</string>
+	<string>1 0 0 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
 	<string>Menlo-Regular - 11.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
@@ -19,7 +19,7 @@
 	<key>DVTConsoleExectuableInputTextFont</key>
 	<string>Menlo-Regular - 11.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
-	<string>0 0 0 1</string>
+	<string>0.5 0 0.5 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
 	<string>Menlo-Bold - 11.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
@@ -47,11 +47,11 @@
 		<key>xcode.syntax.character</key>
 		<string>0.161 0.259 0.467 1</string>
 		<key>xcode.syntax.comment</key>
-		<string>0.765 0.455 0.11 1</string>
+		<string>0.05331 0.289264 0.934783 1</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>0.765 0.455 0.11 1</string>
+		<string>0.05331 0.289264 0.934783 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>0.681 0.383 0.11 1</string>
+		<string>0.05331 0.289264 0.934783 1</string>
 		<key>xcode.syntax.identifier.class</key>
 		<string>0.706 0.27 0 1</string>
 		<key>xcode.syntax.identifier.class.system</key>
@@ -92,51 +92,51 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.character</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>Courier-Oblique - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>Courier-Oblique - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>Courier-Oblique - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>Courier-Bold - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>Courier-Bold - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>Courier-Bold - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>Courier-Bold - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>Courier-Bold - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>Courier-Bold - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Semibold - 10.0</string>
 		<key>xcode.syntax.number</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>Courier-Bold - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.string</key>
-		<string>Courier-Oblique - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.url</key>
-		<string>Courier - 11.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 	</dict>
 </dict>
 </plist>
