@@ -42,6 +42,15 @@ then
     cd -
 fi
 
+if ! [ -e "$XCODE_PLUGIN/OMQuickHelp.xcplugin" ]
+then
+    echo Install plugin
+    cp -r OMQuickHelp.xcplugin.tar.gz "$XCODE_PLUGIN"
+    cd "$XCODE_PLUGIN"
+    tar -zxf OMQuickHelp.xcplugin.tar.gz
+    cd -
+fi
+
 if ! [ -h $XCODE_USERDATA/CodeSnippets ]
 then
     echo "Create symbolic link $XCODE_USERDATA/CodeSnippets"
