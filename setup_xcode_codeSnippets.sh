@@ -2,11 +2,11 @@
 # Test on Xcode4.x and Xcode5-DP 
 # by Poplax[linjiang9999@gmail.com]
 
+CODE_SRC=`pwd -P`
 XCODE_USERDATA=~/Library/Developer/Xcode/UserData
+XCODE_USERDATA_CONFIG_DIR="CodeSnippets FontAndColorThemes KeyBindings"
 XCODE_PLUGIN=~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/
 XCODE_PLUGIN_NAME="UncrustifyPlugin OMQuickHelp"
-XCODE_USERDATA_CONFIG_DIR="CodeSnippets FontAndColorThemes KeyBindings"
-CODE_SRC=`pwd -P`
 
 
 #Install My Config
