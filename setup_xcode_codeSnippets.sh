@@ -15,12 +15,10 @@ do
 	if ! [ -d $XCODE_USERDATA/$user_config ]
 	then
 		echo "file $XCODE_USERDATA/$user_config not exsit"
-	else
-		if ! [ -d $XCODE_USERDATA/$user_config.backup ]
-		then    
-			echo "make backup $XCODE_USERDATA/$user_config.backup"
-			mv $XCODE_USERDATA/$user_config $XCODE_USERDATA/$user_config.backup    
-		fi
+	elif ! [ -d $XCODE_USERDATA/$user_config.backup ] && [ -d $XCODE_USERDATA/$user_config ]
+	then    
+		echo "make backup $XCODE_USERDATA/$user_config.backup"
+		mv $XCODE_USERDATA/$user_config $XCODE_USERDATA/$user_config.backup    
 	fi
 
 	if ! [ -h $XCODE_USERDATA/$user_config ]
