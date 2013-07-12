@@ -14,8 +14,7 @@ for user_config in $XCODE_USERDATA_CONFIG_DIR
 do
 	if ! [ -d $XCODE_USERDATA/$user_config ]
 	then
-		echo "create dir $XCODE_USERDATA/$user_config"
-		mkdir -p $XCODE_USERDATA/$user_config
+		echo "file $XCODE_USERDATA/$user_config not exsit"
 	else
 		if ! [ -d $XCODE_USERDATA/$user_config.backup ]
 		then    
