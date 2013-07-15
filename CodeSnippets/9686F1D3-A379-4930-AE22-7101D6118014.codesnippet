@@ -11,7 +11,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
- @brief &lt;#function description#&gt;
+ &lt;#function description#&gt;
  
  @param &lt;#param#&gt;
  @return &lt;#return#&gt;
