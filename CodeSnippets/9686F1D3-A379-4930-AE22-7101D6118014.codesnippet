@@ -7,15 +7,14 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
- * &lt;#function description#&gt;
- *
- * @param &lt;#param#&gt;
- * @return &lt;#return#&gt;
+ &lt;#function description#&gt;
+ 
+ @param &lt;#param#&gt;
+ @return &lt;#return#&gt;
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9686F1D3-A379-4930-AE22-7101D6118014</string>

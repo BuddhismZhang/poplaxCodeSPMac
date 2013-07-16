@@ -6,9 +6,13 @@
 	<string>cmt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+<<<<<<< HEAD
 		<string>ClassInterfaceMethods</string>
 		<string>ClassInterfaceVariables</string>
 		<string>ClassImplementation</string>
+=======
+		<string>All</string>
+>>>>>>> 316ee1a1343767e9cf9942c128b5fc51fe8fdb84
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
