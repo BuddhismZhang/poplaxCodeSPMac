@@ -6,13 +6,13 @@
 	<string>cmt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassInterfaceMethods</string>
 		<string>ClassInterfaceVariables</string>
 		<string>ClassImplementation</string>
-		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/**
- * &lt;#comment#&gt;
+ &lt;#comment#&gt;
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7C58FA74-41E0-47CB-B661-CC14C1CB1723</string>

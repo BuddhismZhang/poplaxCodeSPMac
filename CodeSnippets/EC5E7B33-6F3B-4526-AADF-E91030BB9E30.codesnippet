@@ -6,16 +6,15 @@
 	<string>mev</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceVariables</string>
-		<string>ClassImplementation</string>
 		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)&lt;#method name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EC5E7B33-6F3B-4526-AADF-E91030BB9E30</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>new void method add interface</string>
 	<key>IDECodeSnippetTitle</key>
