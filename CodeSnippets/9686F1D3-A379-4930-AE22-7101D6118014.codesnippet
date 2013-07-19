@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Comment in Interface</string>
+	<string>Comment in Interface and Implementation</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Function Comment</string>
 	<key>IDECodeSnippetUserSnippet</key>

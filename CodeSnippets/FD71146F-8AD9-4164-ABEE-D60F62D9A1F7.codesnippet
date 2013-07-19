@@ -15,7 +15,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>nsstring with format</string>
+	<string>NSString with format</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>NSString Format</string>
 	<key>IDECodeSnippetUserSnippet</key>

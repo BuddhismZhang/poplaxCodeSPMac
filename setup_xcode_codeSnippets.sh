@@ -8,7 +8,6 @@ XCODE_USERDATA_CONFIG_DIR="CodeSnippets FontAndColorThemes KeyBindings"
 XCODE_PLUGIN=~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/
 XCODE_PLUGIN_NAME="UncrustifyPlugin OMQuickHelp"
 
-
 #Install My Config
 for user_config in $XCODE_USERDATA_CONFIG_DIR
 do
@@ -43,6 +42,29 @@ do
 		cd "$XCODE_PLUGIN"
 		tar -zxf $plugin.xcplugin.tar.gz
 		cd -
+	fi
+done
+
+#AppCode KeyMap
+
+APPCODE_CONFIG_PATH=~/Library/Preferences/appCode20
+APPCODE_CONFIG_DIR="colors codestyles fileTemplates options templates keymaps"
+
+if ! [ -d $APPCODE_CONFIG_PATH ]
+then
+	mkdir -p $APPCODE_CONFIG_PATH
+fi
+
+for appcode_dir in $APPCODE_CONFIG_DIR
+do
+	if ! [ -h $APPCODE_CONFIG_PATH/$appcode_dir ]
+	then
+		if [ -d $APPCODE_CONFIG_PATH/$appcode_dir ]
+		then
+			mv $APPCODE_CONFIG_PATH/$appcode_dir $APPCODE_CONFIG_PATH/$appcode_dir.bak
+		fi
+
+		ln -s $CODE_SRC/appCode/$appcode_dir $APPCODE_CONFIG_PATH/$appcode_dir
 	fi
 done
 
