@@ -86,8 +86,12 @@
 	<dict>
 		<key>Key Bindings</key>
 		<dict>
+			<key>~$A</key>
+			<string>moveToBeginningOfParagraphAndModifySelection:</string>
 			<key>~$B</key>
 			<string>moveWordLeftAndModifySelection:</string>
+			<key>~$E</key>
+			<string>moveToEndOfParagraphAndModifySelection:</string>
 			<key>~$F</key>
 			<string>moveWordRightAndModifySelection:</string>
 			<key>~$</key>
@@ -100,12 +104,16 @@
 			<string>deleteWordForward:</string>
 			<key>~f</key>
 			<string>moveWordRight:</string>
+			<key>~v</key>
+			<string>pageUp:</string>
 			<key>~</key>
 			<string>moveWordLeft:</string>
 			<key>~</key>
 			<string>moveWordRight:</string>
 			<key>~</key>
 			<string>deleteWordForward:</string>
+			<key>~</key>
+			<string>pageUp:</string>
 		</dict>
 		<key>Version</key>
 		<integer>3</integer>
