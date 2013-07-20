@@ -1,3 +1,4 @@
+// 
 // ${NAME}.h
 #parse("Objective-C File Header.m")
 #import <Foundation/Foundation.h>

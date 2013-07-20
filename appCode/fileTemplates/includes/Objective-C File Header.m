@@ -1,4 +1,3 @@
-// 
 // ${PROJECT_NAME} 
 //
 // Created by $USER_NAME on ${DATE}.

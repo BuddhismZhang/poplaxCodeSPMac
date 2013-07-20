@@ -30,5 +30,21 @@
 		<key>Version</key>
 		<integer>3</integer>
 	</dict>
+	<key>Text Key Bindings</key>
+	<dict>
+		<key>Key Bindings</key>
+		<dict>
+			<key>~b</key>
+			<string>moveWordLeft:</string>
+			<key>~f</key>
+			<string>moveWordRight:</string>
+			<key>~</key>
+			<string>moveWordLeft:</string>
+			<key>~</key>
+			<string>moveWordRight:</string>
+		</dict>
+		<key>Version</key>
+		<integer>3</integer>
+	</dict>
 </dict>
 </plist>

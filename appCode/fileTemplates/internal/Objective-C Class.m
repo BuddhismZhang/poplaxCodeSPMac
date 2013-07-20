@@ -1,3 +1,4 @@
+//
 // ${NAME}.m
 #parse("Objective-C File Header.m")
 #import "${HEADER_FILENAME}"

@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="poplax-2" parent="Mac OS X 10.5+">
+  <action id="CollapseSelection">
+    <keyboard-shortcut first-keystroke="shift meta PERIOD" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift meta D" />
+  </action>
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift control BACK_SPACE" />
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="alt DELETE" />
+    <keyboard-shortcut first-keystroke="meta D" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="meta BACK_SPACE" />
+  </action>
+  <action id="EditorDuplicate" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="alt RIGHT" />
     <keyboard-shortcut first-keystroke="alt F" />
+  </action>
+  <action id="JumpToLastChange" />
+  <action id="NewXcodeFileByTemplate">
+    <keyboard-shortcut first-keystroke="shift meta N" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt L" />
+    <keyboard-shortcut first-keystroke="shift meta B" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta R" />
+  </action>
+  <action id="SafeDelete">
+    <keyboard-shortcut first-keystroke="meta DELETE" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta F2" />
+    <keyboard-shortcut first-keystroke="meta PERIOD" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />

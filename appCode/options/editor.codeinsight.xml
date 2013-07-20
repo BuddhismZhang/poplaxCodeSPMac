@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+  </component>
   <component name="CodeInsightSettings">
-    <option name="PARAMETER_INFO_DELAY" value="100" />
+    <option name="PARAMETER_INFO_DELAY" value="50" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Default">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />

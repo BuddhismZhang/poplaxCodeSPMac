@@ -2,7 +2,12 @@
 <application>
   <component name="ExportableTemplateSettings">
     <option name="deletedKeys">
-      <list />
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="Objective-C" />
+          <option name="key" value="propr" />
+        </TemplateKey>
+      </list>
     </option>
   </component>
 </application>
