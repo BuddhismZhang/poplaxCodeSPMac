@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type">
+      <project id="HouseCalculateS" values="AppleRunConfiguration" />
+    </group>
+    <group name="module type">
+      <project id="HouseCalculateS" values="CIDR_MODULE" />
+      <project id="AppCodeTest" values="CIDR_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="HouseCalculateS" values="Strings,plist,UNKNOWN,Images,ObjectiveC" />
+      <project id="AppCodeTest" values="JSON,Strings,plist,UNKNOWN,ObjectiveC" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="AppCodeTest" values="AppleRunConfiguration" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="HouseCalculateS" values="DEFAULT" />
+      <project id="AppCodeTest" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="HouseCalculateS" values="Project,Project" />
+      <project id="AppCodeTest" values="Project,Project" />
+    </group>
+    <group name="SDK">
+      <project id="HouseCalculateS" values="iOS 6.1" />
+      <project id="AppCodeTest" values="iOS 6.1" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.AppleRunConfiguration.Debug" count="3" />
+      <entry feature="execute.AppleRunConfiguration.Instruments" count="1" />
+      <entry feature="execute.AppleRunConfiguration.Run" count="7" />
+    </counts>
+  </component>
+</application>
+
