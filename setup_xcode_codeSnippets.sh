@@ -68,4 +68,9 @@ do
 	fi
 done
 
+cd $CODE_SRC
+cp -f .uncrustifyconfig ~/
+cd -
+
+
 echo "*** XCode Poplax Code Setup Complate!!!***"
