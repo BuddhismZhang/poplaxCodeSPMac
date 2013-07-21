@@ -73,7 +73,7 @@
     <option name="FILE_MASK" />
     <option name="RECENT_FIND_STRINGS">
       <value>
-        <list size="19">
+        <list size="21">
           <item index="0" class="java.lang.String" itemvalue="contro" />
           <item index="1" class="java.lang.String" itemvalue="controller" />
           <item index="2" class="java.lang.String" itemvalue="_RSLawyer" />
@@ -92,7 +92,9 @@
           <item index="15" class="java.lang.String" itemvalue="ElementsDataSourceProtocol" />
           <item index="16" class="java.lang.String" itemvalue="dataSource" />
           <item index="17" class="java.lang.String" itemvalue="row" />
-          <item index="18" class="java.lang.String" itemvalue="Widget" />
+          <item index="18" class="java.lang.String" itemvalue="cellForRowAtIndexPath" />
+          <item index="19" class="java.lang.String" itemvalue="Widget" />
+          <item index="20" class="java.lang.String" itemvalue="cell1" />
         </list>
       </value>
     </option>

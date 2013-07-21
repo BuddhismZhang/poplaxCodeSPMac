@@ -21,20 +21,20 @@
     <location key="XPathView.InputDialog.DIMENSION_SERVICE_KEY.SIMPLE.0.0.2560.1440" x="986" y="597" />
     <location key="projectSettings.0.0.2560.1440" x="493" y="398" />
     <size key="GotoFile_FileTypePopup.0.0.2560.1440" width="200" height="200" />
-    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2466" height="505" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2466" height="412" />
     <size key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.0.2560.1440" width="700" height="500" />
     <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2466" height="505" />
     <size key="OptionsEditor.0.0.2560.1440" width="1677" height="970" />
     <size key="NewXcodeProjectWizard.0.0.2560.1440" width="600" height="400" />
     <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2466" height="505" />
     <size key="#Browse_JetBrains_Plugins_.0.0.2560.1440" width="1161" height="751" />
-    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2466" height="505" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2466" height="412" />
     <size key="com.intellij.xdebugger.impl.breakpoints.ui.tree.BreakpointMasterDetailPopupBuilder.0.0.2560.1440" width="914" height="700" />
     <size key="javadoc.popup.0.0.2560.1440" width="500" height="124" />
     <size key="XPathView.InputDialog.DIMENSION_SERVICE_KEY.SIMPLE.0.0.2560.1440" width="517" height="267" />
     <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2466" height="505" />
-    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2466" height="505" />
-    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2466" height="505" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2466" height="412" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2466" height="412" />
     <size key="projectSettings.0.0.2560.1440" width="1454" height="904" />
     <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2466" height="505" />
     <extendedState key="projectSettings.1" state="400" />
