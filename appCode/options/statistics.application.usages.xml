@@ -6,38 +6,38 @@
       <project id="TheElements" values="AppleRunConfiguration" />
       <project id="houseCalculate" values="AppleRunConfiguration" />
     </group>
-    <group name="vcs">
-      <project id="houseCalculate" values="svn" />
-    </group>
     <group name="module type">
       <project id="HouseCalculateS" values="CIDR_MODULE" />
       <project id="AppCodeTest" values="CIDR_MODULE" />
       <project id="TheElements" values="CIDR_MODULE" />
       <project id="houseCalculate" values="CIDR_MODULE" />
     </group>
+    <group name="vcs">
+      <project id="houseCalculate" values="svn" />
+    </group>
     <group name="Command line tool">
       <project id="houseCalculate" values="console in toolwindow" />
-    </group>
-    <group name="file-type">
-      <project id="HouseCalculateS" values="ObjectiveC,Images,Strings,plist,UNKNOWN" />
-      <project id="AppCodeTest" values="Strings,UNKNOWN,JSON,plist,ObjectiveC" />
-      <project id="TheElements" values="Storyboard,PLAIN_TEXT,ObjectiveC,UNKNOWN,Images,plist" />
-      <project id="houseCalculate" values="ObjectiveC,UNKNOWN,Images,Strings,plist" />
     </group>
     <group name="run-configuration-type-temp">
       <project id="AppCodeTest" values="AppleRunConfiguration" />
     </group>
-    <group name="JavaScript versions">
-      <project id="HouseCalculateS" values="DEFAULT" />
-      <project id="AppCodeTest" values="DEFAULT" />
-      <project id="TheElements" values="DEFAULT" />
-      <project id="houseCalculate" values="DEFAULT" />
+    <group name="file-type">
+      <project id="HouseCalculateS" values="ObjectiveC,Images,UNKNOWN,plist,Strings" />
+      <project id="AppCodeTest" values="ObjectiveC,JSON,Strings,plist,UNKNOWN" />
+      <project id="TheElements" values="UNKNOWN,plist,PLAIN_TEXT,Storyboard,ObjectiveC,Images" />
+      <project id="houseCalculate" values="Strings,plist,ObjectiveC,Images,UNKNOWN" />
     </group>
     <group name="javaScript Scope Usages">
       <project id="HouseCalculateS" values="Project,Project" />
       <project id="AppCodeTest" values="Project,Project" />
       <project id="TheElements" values="Project,Project" />
       <project id="houseCalculate" values="Project,Project" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="HouseCalculateS" values="DEFAULT" />
+      <project id="AppCodeTest" values="DEFAULT" />
+      <project id="TheElements" values="DEFAULT" />
+      <project id="houseCalculate" values="DEFAULT" />
     </group>
     <group name="SDK">
       <project id="HouseCalculateS" values="iOS 6.1" />
@@ -48,9 +48,9 @@
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="execute.AppleRunConfiguration.Debug" count="10" />
-      <entry feature="execute.AppleRunConfiguration.Instruments" count="1" />
-      <entry feature="execute.AppleRunConfiguration.Run" count="8" />
+      <entry feature="execute.AppleRunConfiguration.Debug" count="15" />
+      <entry feature="execute.AppleRunConfiguration.Instruments" count="2" />
+      <entry feature="execute.AppleRunConfiguration.Run" count="19" />
     </counts>
   </component>
 </application>

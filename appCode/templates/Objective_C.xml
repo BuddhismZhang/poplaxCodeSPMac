@@ -208,7 +208,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="pro" value="@property (nonatomic, $TYPE$) $DECLARATION$ $VAR$;$END$" description="@property smart" toReformat="true" toShortenFQNames="true">
+  <template name="pro" value="@property ($TYPE$) $DECLARATION$ $VAR$;$END$" description="@property smart" toReformat="true" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
     <variable name="DECLARATION" expression="" defaultValue="&quot;typevar&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
@@ -318,8 +318,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="mev" value="- (void)$METHOD$ &#10;{&#10;    $END$;&#10;}" description="New Method Implementation" toReformat="true" toShortenFQNames="true">
-    <variable name="METHOD" expression="New Method" defaultValue="newMethod" alwaysStopAt="true" />
+  <template name="mevi" value="- (void)$METHOD$ &#10;{&#10;    $END$&#10;}" description="New Method Implementation" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -375,7 +375,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="cml" value="//------------------------&#10;// $END$&#10;//------------------------" description="Insert comment" toReformat="true" toShortenFQNames="true">
+  <template name="cml" value="///------------------------&#10;/// $END$&#10;///------------------------" description="Insert comment" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -423,6 +423,65 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="true" />
       <option name="OC_EXPRESSION" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="mev" value="- (void)$METHOD$;&#10;$END$" description="New Method Interface Declare" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="meri" value="- ($RETURNTYPE$)$METHOD$ &#10;{&#10;    $END$&#10;}" description="New Method Implementation Return id" toReformat="true" toShortenFQNames="true">
+    <variable name="RETURNTYPE" expression="" defaultValue="&quot;Return&quot;" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="mer" value="- ($RETURNTYPE$)$METHOD$;&#10;$END$" description="New Method Declare With Return Id" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="&quot;Return&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
