@@ -13,11 +13,11 @@
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.2560.1440" x="708" y="393" />
     <location key="#Browse_JetBrains_Plugins_.0.0.2560.1440" x="608" y="330" />
     <location key="SimpleOpenTaskDialog.0.0.2560.1440" x="1080" y="673" />
-    <location key="#Intentions.0.0.2560.1440" x="832" y="394" />
     <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.2560.1440" x="884" y="889" />
-    <location key="com.intellij.xdebugger.impl.breakpoints.ui.tree.BreakpointMasterDetailPopupBuilder.0.0.2560.1440" x="786" y="495" />
-    <location key="EditParametersPopupWindow.0.0.2560.1440" x="930" y="612" />
+    <location key="#Intentions.0.0.2560.1440" x="832" y="394" />
     <location key="FileChooserDialogImpl.0.0.2560.1440" x="1010" y="480" />
+    <location key="EditParametersPopupWindow.0.0.2560.1440" x="930" y="612" />
+    <location key="com.intellij.xdebugger.impl.breakpoints.ui.tree.BreakpointMasterDetailPopupBuilder.0.0.2560.1440" x="786" y="495" />
     <location key="XPathView.InputDialog.DIMENSION_SERVICE_KEY.SIMPLE.0.0.2560.1440" x="986" y="597" />
     <location key="projectSettings.0.0.2560.1440" x="493" y="398" />
     <size key="GotoFile_FileTypePopup.0.0.2560.1440" width="200" height="200" />
@@ -47,10 +47,10 @@
   <component name="PropertiesComponent">
     <property name="NewXcodeProject.Right" value="Empty Application" />
     <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
-    <property name="FileTemplates.CurrentTab" value="Code" />
     <property name="MemberChooser.sorted" value="true" />
-    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="FileTemplates.CurrentTab" value="Code" />
     <property name="file.colors.enable.non.project" value="Yellow" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="RunConfigurable.dividerProportion" value="0.3" />
     <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="KEYMAP" value="word&#10;move" />

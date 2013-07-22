@@ -164,7 +164,15 @@
       <list>
         <option value="$USER_HOME$/MyProject/iOS/HouseCalculateS" />
         <option value="$USER_HOME$/MySource/iOS/TheElements" />
+        <option value="$USER_HOME$/MyProject/iOS/houseCalculate" />
       </list>
+    </option>
+    <option name="names">
+      <map>
+        <entry key="$USER_HOME$/MyProject/iOS/HouseCalculateS" value="" />
+        <entry key="$USER_HOME$/MyProject/iOS/houseCalculate" value="" />
+        <entry key="$USER_HOME$/MySource/iOS/TheElements" value="" />
+      </map>
     </option>
     <option name="lastPath" value="$USER_HOME$/MyProject/iOS/houseCalculate" />
   </component>
@@ -213,7 +221,7 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1374401991828" />
+    <option name="LAST_TIME_CHECKED" value="1374495377374" />
     <option name="LAST_BUILD_CHECKED" value="OC-129.934" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
@@ -265,15 +273,15 @@
     </recent_templates>
   </component>
   <component name="com.intellij.javaee.ExternalResourceManagerImpl">
-    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
-    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
 </application>
