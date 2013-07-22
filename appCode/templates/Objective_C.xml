@@ -431,7 +431,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="mev" value="- (void)$METHOD$;&#10;$END$" description="New Method Interface Declare" toReformat="true" toShortenFQNames="true">
+  <template name="mev" value="- (void)$METHOD$;$END$&#10;" description="New Method Interface Declare" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -451,8 +451,8 @@
     </context>
   </template>
   <template name="meri" value="- ($RETURNTYPE$)$METHOD$ &#10;{&#10;    $END$&#10;}" description="New Method Implementation Return id" toReformat="true" toShortenFQNames="true">
-    <variable name="RETURNTYPE" expression="" defaultValue="&quot;Return&quot;" alwaysStopAt="true" />
     <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="&quot;Return&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />

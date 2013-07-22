@@ -3,12 +3,11 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
-        <option value="directive.index" />
+        <option value="js.members.shortName" />
+        <option value="js.qualified.shortName" />
         <option value="JS.class.implements" />
         <option value="JS.class.super" />
         <option value="js.element.qualifiedName" />
-        <option value="js.members.shortName" />
-        <option value="js.qualified.shortName" />
       </list>
     </option>
   </component>
