@@ -29,6 +29,9 @@
     <keyboard-shortcut first-keystroke="alt DELETE" />
     <keyboard-shortcut first-keystroke="meta D" />
   </action>
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
     <keyboard-shortcut first-keystroke="meta BACK_SPACE" />
