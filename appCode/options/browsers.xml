@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="WebBrowsersConfiguration">
-<<<<<<< HEAD
     <browser family="SAFARI" path="Safari" active="true" />
-    <browser family="EXPLORER" path="" active="false" />
-    <browser family="FIREFOX" path="Firefox" active="true" />
-    <browser family="CHROME" path="Google Chrome" active="true" />
-    <browser family="OPERA" path="Opera" active="true" />
-=======
     <browser family="EXPLORER" path="" active="false" />
     <browser family="OPERA" path="Opera" active="true" />
     <browser family="CHROME" path="Google Chrome" active="true" />
-    <browser family="SAFARI" path="Safari" active="true" />
     <browser family="FIREFOX" path="Firefox" active="true" />
->>>>>>> 31f77b10297946b93a30a9105046d26a33b2481e
   </component>
 </application>
 

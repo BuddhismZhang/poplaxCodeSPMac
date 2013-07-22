@@ -3,6 +3,7 @@
   <component name="UISettings">
     <option name="HIDE_TOOL_STRIPES" value="true" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="DEFAULT_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
 </application>
 

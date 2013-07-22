@@ -3,16 +3,16 @@
   <component name="RunnerLayoutSettings">
     <runner id="Debug">
       <ViewImpl>
-        <option name="ID" value="FrameContent" />
+        <option name="ID" value="WatchesContent" />
         <option name="minimizedInGrid" value="false" />
-        <option name="placeInGrid" value="left" />
+        <option name="placeInGrid" value="right" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
       </ViewImpl>
       <ViewImpl>
-        <option name="ID" value="WatchesContent" />
+        <option name="ID" value="FrameContent" />
         <option name="minimizedInGrid" value="false" />
-        <option name="placeInGrid" value="right" />
+        <option name="placeInGrid" value="left" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
       </ViewImpl>
@@ -45,9 +45,9 @@
         <option name="displayName" value="Debugger" />
         <option name="index" value="0" />
         <option name="leftDetached" value="false" />
-        <option name="leftProportion" value="0.19876033" />
+        <option name="leftProportion" value="0.19868906" />
         <option name="rightDetached" value="false" />
-        <option name="rightProportion" value="0.19876033" />
+        <option name="rightProportion" value="0.19868906" />
       </TabImpl>
       <TabImpl>
         <option name="bottomDetached" value="false" />
