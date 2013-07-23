@@ -48,7 +48,7 @@ done
 #AppCode KeyMap
 
 APPCODE_CONFIG_PATH=~/Library/Preferences/appCode20
-APPCODE_CONFIG_DIR="colors codestyles fileTemplates options templates keymaps"
+APPCODE_CONFIG_DIR="colors codestyles fileTemplates templates keymaps"
 
 if ! [ -d $APPCODE_CONFIG_PATH ]
 then
