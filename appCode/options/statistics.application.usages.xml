@@ -4,6 +4,7 @@
     <group name="run-configuration-type">
       <project id="HouseCalculateS" values="AppleRunConfiguration" />
       <project id="TheElements" values="AppleRunConfiguration" />
+<<<<<<< HEAD
       <project id="ZongHengReader" values="AppleRunConfiguration" />
       <project id="AbstractFactory" values="AppleRunConfiguration" />
       <project id="Singleton" values="AppleRunConfiguration" />
@@ -12,12 +13,13 @@
     <group name="vcs">
       <project id="ZongHengReader" values="svn" />
       <project id="houseCalculate" values="svn" />
+=======
+>>>>>>> 89f73f538d1c0d0c122624af375cac01a9a217bb
     </group>
     <group name="module type">
       <project id="HouseCalculateS" values="CIDR_MODULE" />
-      <project id="AppCodeTest" values="CIDR_MODULE" />
-      <project id="CustomAlert" values="CIDR_MODULE" />
       <project id="TheElements" values="CIDR_MODULE" />
+<<<<<<< HEAD
       <project id="ZongHengReader" values="CIDR_MODULE" />
       <project id="AbstractFactory" values="CIDR_MODULE" />
       <project id="Singleton" values="CIDR_MODULE" />
@@ -59,23 +61,37 @@
       <project id="AbstractFactory" values="Project,Project" />
       <project id="Singleton" values="Project,Project" />
       <project id="houseCalculate" values="Project,Project" />
+=======
+    </group>
+    <group name="file-type">
+      <project id="HouseCalculateS" values="ObjectiveC,Strings,plist,Images,UNKNOWN" />
+      <project id="TheElements" values="PLAIN_TEXT,UNKNOWN,Storyboard,plist,ObjectiveC,Images" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="HouseCalculateS" values="DEFAULT" />
+      <project id="TheElements" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="HouseCalculateS" values="Project,Project" />
+      <project id="TheElements" values="Project,Project" />
+>>>>>>> 89f73f538d1c0d0c122624af375cac01a9a217bb
     </group>
     <group name="SDK">
       <project id="HouseCalculateS" values="iOS 6.1" />
-      <project id="AppCodeTest" values="iOS 6.1" />
-      <project id="CustomAlert" values="iOS 6.1" />
       <project id="TheElements" values="iOS 6.1" />
+<<<<<<< HEAD
       <project id="ZongHengReader" values="iOS 6.1" />
       <project id="AbstractFactory" values="iOS 6.1" />
       <project id="Singleton" values="iOS 6.1" />
       <project id="houseCalculate" values="iOS 6.1" />
+=======
+>>>>>>> 89f73f538d1c0d0c122624af375cac01a9a217bb
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="execute.AppleRunConfiguration.Debug" count="15" />
-      <entry feature="execute.AppleRunConfiguration.Instruments" count="2" />
-      <entry feature="execute.AppleRunConfiguration.Run" count="31" />
+      <entry feature="execute.AppleRunConfiguration.Debug" count="6" />
+      <entry feature="execute.AppleRunConfiguration.Run" count="16" />
     </counts>
   </component>
 </application>

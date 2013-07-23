@@ -318,7 +318,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="mevi" value="- (void)$METHOD$ &#10;{&#10;    $END$&#10;}" description="New Method Implementation" toReformat="true" toShortenFQNames="true">
+  <template name="mevi" value="- (void)$METHOD$&#10;{&#10;    $END$&#10;}" description="New Method Implementation" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -450,7 +450,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="meri" value="- ($RETURNTYPE$)$METHOD$ &#10;{&#10;    $END$&#10;}" description="New Method Implementation Return id" toReformat="true" toShortenFQNames="true">
+  <template name="meri" value="- ($RETURNTYPE$)$METHOD$&#10;" description="New Method Implementation Return id" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
     <variable name="RETURNTYPE" expression="" defaultValue="&quot;Return&quot;" alwaysStopAt="true" />
     <context>
@@ -480,6 +480,24 @@
       <option name="XML" value="false" />
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="propr" value="@property (nonatomic, retain) $DECLARATION$;$END$" description="@property (retain)" toReformat="true" toShortenFQNames="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
