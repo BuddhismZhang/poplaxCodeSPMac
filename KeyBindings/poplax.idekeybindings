@@ -86,6 +86,8 @@
 	<dict>
 		<key>Key Bindings</key>
 		<dict>
+			<key>^$</key>
+			<string>deleteToEndOfLine:</string>
 			<key>~$A</key>
 			<string>moveToBeginningOfParagraphAndModifySelection:</string>
 			<key>~$B</key>
