@@ -6,8 +6,12 @@
       <project id="TheElements" values="AppleRunConfiguration" />
       <project id="ZongHengReader" values="AppleRunConfiguration" />
       <project id="AbstractFactory" values="AppleRunConfiguration" />
-      <project id="houseCalculate" values="AppleRunConfiguration" />
       <project id="Singleton" values="AppleRunConfiguration" />
+      <project id="houseCalculate" values="AppleRunConfiguration" />
+    </group>
+    <group name="vcs">
+      <project id="ZongHengReader" values="svn" />
+      <project id="houseCalculate" values="svn" />
     </group>
     <group name="module type">
       <project id="HouseCalculateS" values="CIDR_MODULE" />
@@ -16,39 +20,25 @@
       <project id="TheElements" values="CIDR_MODULE" />
       <project id="ZongHengReader" values="CIDR_MODULE" />
       <project id="AbstractFactory" values="CIDR_MODULE" />
-      <project id="houseCalculate" values="CIDR_MODULE" />
       <project id="Singleton" values="CIDR_MODULE" />
-    </group>
-    <group name="vcs">
-      <project id="ZongHengReader" values="svn" />
-      <project id="houseCalculate" values="svn" />
+      <project id="houseCalculate" values="CIDR_MODULE" />
     </group>
     <group name="Command line tool">
       <project id="houseCalculate" values="console in toolwindow" />
     </group>
+    <group name="file-type">
+      <project id="HouseCalculateS" values="Images,plist,Strings,ObjectiveC,UNKNOWN" />
+      <project id="AppCodeTest" values="ObjectiveC,JSON,UNKNOWN,Strings,plist" />
+      <project id="CustomAlert" values="UNKNOWN,ObjectiveC,Strings,plist" />
+      <project id="TheElements" values="ObjectiveC,plist,UNKNOWN,Images,Storyboard,PLAIN_TEXT" />
+      <project id="ZongHengReader" values="ObjectiveC,Images,plist,UNKNOWN,Strings,JSON" />
+      <project id="AbstractFactory" values="XIB,plist,UNKNOWN,ObjectiveC" />
+      <project id="Singleton" values="UNKNOWN,XIB,plist,ObjectiveC" />
+      <project id="houseCalculate" values="Strings,Images,ObjectiveC,plist,UNKNOWN" />
+    </group>
     <group name="run-configuration-type-temp">
       <project id="AppCodeTest" values="AppleRunConfiguration" />
       <project id="CustomAlert" values="AppleRunConfiguration" />
-    </group>
-    <group name="file-type">
-      <project id="HouseCalculateS" values="Strings,UNKNOWN,ObjectiveC,Images,plist" />
-      <project id="AppCodeTest" values="plist,JSON,UNKNOWN,Strings,ObjectiveC" />
-      <project id="CustomAlert" values="Strings,UNKNOWN,plist,ObjectiveC" />
-      <project id="TheElements" values="plist,PLAIN_TEXT,Images,UNKNOWN,Storyboard,ObjectiveC" />
-      <project id="ZongHengReader" values="Images,UNKNOWN,ObjectiveC,plist,JSON,Strings" />
-      <project id="AbstractFactory" values="plist,UNKNOWN,ObjectiveC,XIB" />
-      <project id="houseCalculate" values="Images,UNKNOWN,ObjectiveC,Strings,plist" />
-      <project id="Singleton" values="UNKNOWN,XIB,ObjectiveC,plist" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="HouseCalculateS" values="Project,Project" />
-      <project id="AppCodeTest" values="Project,Project" />
-      <project id="CustomAlert" values="Project,Project" />
-      <project id="TheElements" values="Project,Project" />
-      <project id="ZongHengReader" values="Project,Project" />
-      <project id="AbstractFactory" values="Project,Project" />
-      <project id="houseCalculate" values="Project,Project" />
-      <project id="Singleton" values="Project,Project" />
     </group>
     <group name="JavaScript versions">
       <project id="HouseCalculateS" values="DEFAULT" />
@@ -57,8 +47,18 @@
       <project id="TheElements" values="DEFAULT" />
       <project id="ZongHengReader" values="DEFAULT" />
       <project id="AbstractFactory" values="DEFAULT" />
-      <project id="houseCalculate" values="DEFAULT" />
       <project id="Singleton" values="DEFAULT" />
+      <project id="houseCalculate" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="HouseCalculateS" values="Project,Project" />
+      <project id="AppCodeTest" values="Project,Project" />
+      <project id="CustomAlert" values="Project,Project" />
+      <project id="TheElements" values="Project,Project" />
+      <project id="ZongHengReader" values="Project,Project" />
+      <project id="AbstractFactory" values="Project,Project" />
+      <project id="Singleton" values="Project,Project" />
+      <project id="houseCalculate" values="Project,Project" />
     </group>
     <group name="SDK">
       <project id="HouseCalculateS" values="iOS 6.1" />
@@ -67,8 +67,8 @@
       <project id="TheElements" values="iOS 6.1" />
       <project id="ZongHengReader" values="iOS 6.1" />
       <project id="AbstractFactory" values="iOS 6.1" />
-      <project id="houseCalculate" values="iOS 6.1" />
       <project id="Singleton" values="iOS 6.1" />
+      <project id="houseCalculate" values="iOS 6.1" />
     </group>
   </component>
   <component name="UsageTrigger">

@@ -184,7 +184,6 @@
     <option name="names">
       <map>
         <entry key="$USER_HOME$/Downloads/CustomAlert" value="" />
-        <entry key="$USER_HOME$/MyProject/iOS/ZongHengReader/branches/iOS7UI" value="" />
         <entry key="$USER_HOME$/MySource/iOS/Patterncode/978-1-4302-3330-5_Chung_Ch05_AbstractFactory_code" value="" />
         <entry key="$USER_HOME$/MySource/iOS/Patterncode/978-1-4302-3330-5_Chung_Ch07_Singleton_code" value="" />
       </map>
@@ -288,15 +287,15 @@
     </recent_templates>
   </component>
   <component name="com.intellij.javaee.ExternalResourceManagerImpl">
-    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
-    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://exslt.org/math" />
     <ignored-resource url="http://exslt.org/dynamic" />
     <ignored-resource url="http://exslt.org/common" />
-    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
 </application>
