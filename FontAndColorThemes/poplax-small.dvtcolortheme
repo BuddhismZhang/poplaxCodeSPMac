@@ -116,7 +116,7 @@
 		<key>xcode.syntax.identifier.macro</key>
 		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>SourceCodePro-Semibold - 10.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.type</key>
 		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
@@ -126,13 +126,13 @@
 		<key>xcode.syntax.identifier.variable.system</key>
 		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>SourceCodePro-Semibold - 10.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.number</key>
 		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.plain</key>
 		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>SourceCodePro-Semibold - 10.0</string>
+		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.string</key>
 		<string>SourceCodePro-Regular - 10.0</string>
 		<key>xcode.syntax.url</key>
