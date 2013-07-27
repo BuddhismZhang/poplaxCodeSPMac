@@ -76,6 +76,10 @@
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="meta DELETE" />
   </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift control SPACE" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="control N" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="L" />
   </action>
