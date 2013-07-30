@@ -1,0 +1,15 @@
+#!/bin/sh
+
+LX_SOURCE_CODE=`pwd -P`
+LX_DEFAULT_DOC_NAME=doc
+
+if [ "$#" != "3" ]
+then
+	echo "Usage: lx-appledoc [PROJECT_NAME] [VERSION] [COMPANY_NAME]"
+else
+	if ! [ -d "$LX_SOURCE_CODE"/$LX_DEFAULT_DOC_NAME ]
+	then
+		mkdir "$LX_SOURCE_CODE"/$LX_DEFAULT_DOC_NAME  
+	fi
+	appledoc . -p$1 -v$2 -c$3 --no-create-docset -o $LX_DEFAULT_DOC_NAME
+fi

@@ -68,9 +68,30 @@ do
 	fi
 done
 
+#Setup XCode Templates
+USER_XCODE_CONFIG_PATH=~/Library/Developer/Xcode
+
+if [ -d $USER_XCODE_CONFIG_PATH/Templates ]
+then
+	mv $USER_XCODE_CONFIG_PATH/Templates $USER_XCODE_CONFIG_PATH/Templates.bak
+fi
+ln -s $CODE_SRC/Templates $USER_XCODE_CONFIG_PATH/Templates
+
+#Setup uncrustify
 cd $CODE_SRC
 cp -f .uncrustifyconfig ~/
 cd -
 
+#Setup shc 
+
+if ! [ -f /sbin/lx-shc ] || ! [ -f /sbin/shc ]
+then
+	sudo cp $CODE_SRC/lx-shc $CODE_SRC/shc /sbin/
+fi
+
+
 
 echo "*** XCode Poplax Code Setup Complate!!!***"
+
+
+
