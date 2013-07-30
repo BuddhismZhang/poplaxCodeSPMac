@@ -208,7 +208,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="pro" value="@property ($TYPE$) $DECLARATION$ $VAR$;$END$" description="@property smart" toReformat="true" toShortenFQNames="true">
+  <template name="pro" value="@property (nonatomic, $TYPE$) $DECLARATION$ $VAR$;$END$" description="@property smart" toReformat="true" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
     <variable name="DECLARATION" expression="" defaultValue="&quot;typevar&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
@@ -299,7 +299,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="nsl" value="NSLog(@&quot;******* $LOGSTRING$ *******&quot;);" description="NSLog" toReformat="true" toShortenFQNames="true">
+  <template name="nsl" value="NSLog(@&quot;******* NSLog : $LOGSTRING$ *******&quot;);" description="NSLog" toReformat="true" toShortenFQNames="true">
     <variable name="LOGSTRING" expression="capitalize(String)" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -337,9 +337,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="nsf" value="NSLog(@&quot;******* Log : %$LOGSTRING$ *******&quot;, $LOGVAR$);" description="NSLog With Format" toReformat="true" toShortenFQNames="true">
+  <template name="nsf" value="NSLog(@&quot;******* $LOGVAR$ : %$LOGSTRING$ *******&quot;, $LOGVAR$);" description="NSLog With Format" toReformat="true" toShortenFQNames="true">
     <variable name="LOGVAR" expression="suggestVariableName()" defaultValue="&quot;LogVar&quot;" alwaysStopAt="true" />
-    <variable name="LOGSTRING" expression="variableOfType()" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
+    <variable name="LOGSTRING" expression="variableOfType()" defaultValue="&quot;@&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -508,8 +508,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="dd" value="DLog(@&quot;+++++++ $LOGSTRING$ +++++++&quot;);$END$" description="DLog" toReformat="true" toShortenFQNames="true">
-    <variable name="LOGSTRING" expression="capitalize(String)" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
+  <template name="dd" value="DLog(@&quot;+++++++ DLog : $LOGSTRING$ +++++++&quot;);$END$" description="DLog" toReformat="true" toShortenFQNames="true">
+    <variable name="LOGSTRING" expression="capitalize(String)" defaultValue="&quot;LogString&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -527,9 +527,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="dl" value="DLog(@&quot;+++++++ DLog : %$LOGSTRING$ +++++++&quot;, $LOGVAR$);$END$" description="DLog With Format" toReformat="true" toShortenFQNames="true">
+  <template name="dl" value="DLog(@&quot;+++++++ $LOGVAR$ : %$LOGSTRING$ +++++++&quot;, $LOGVAR$);$END$" description="DLog With Format" toReformat="true" toShortenFQNames="true">
     <variable name="LOGVAR" expression="suggestVariableName()" defaultValue="&quot;LogVar&quot;" alwaysStopAt="true" />
-    <variable name="LOGSTRING" expression="variableOfType()" defaultValue="&quot;String&quot;" alwaysStopAt="true" />
+    <variable name="LOGSTRING" expression="variableOfType()" defaultValue="&quot;@&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
