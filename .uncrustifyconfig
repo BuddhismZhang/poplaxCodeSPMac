@@ -32,10 +32,13 @@ nl_switch_brace       = remove   # "switch () {" vs "switch () \n {"
 nl_brace_while        = remove   # "} while" vs "} \n while" - cuddle while
 nl_brace_else         = remove   # "} else" vs "} \n else" - cuddle else
 nl_func_var_def_blk   = 1
-nl_fcall_brace        = remove   # "list_for_each() {" vs "list_for_each()\n{"
+nl_fcall_brace        = force # "list_for_each() {" vs "list_for_each()\n{"
 nl_fdef_brace         = force 	 # "int foo() {" vs "int foo()\n{"
-# nl_after_return     = TRUE;
-# nl_before_case      = 1
+nl_after_func_body    = 2
+#nl_after_return      = TRUE;
+#nl_before_case       = 1
+#nl_func_def_args 	  = force
+#nl_func_type_name 	  = force
 
 
 #
@@ -71,7 +74,6 @@ sp_assign                    = add
 sp_arith                     = add
 sp_bool                      = add
 sp_compare                   = add
-sp_assign                    = add
 sp_after_comma               = add
 sp_func_def_paren            = remove  # "int foo (){" vs "int foo(){"
 sp_func_call_paren           = remove  # "foo (" vs "foo("
@@ -139,6 +141,7 @@ cmt_star_cont                 = True     # Whether to put a star on subsequent c
 
 
 # add by poplax
+sp_assign                    			 = force
 # The span for aligning variable definitions (0=don't align)
 align_var_def_span                       = 4 # number
 
@@ -170,7 +173,7 @@ align_var_def_attribute                  = false    # false/true
 align_var_def_inline                     = false    # false/true
 
 # The span for aligning on '=' in assignments (0=don't align)
-align_assign_span                        = 20       # number
+align_assign_span                        = 0       # number
 
 # The threshold for aligning on '=' in assignments (0=no limit)
 align_assign_thresh                      = 0        # number
