@@ -1,0 +1,19 @@
+#!/bin/sh
+# create by poplax
+
+SYMBOL_CRASH_FILE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/symbolicatecrash
+PROFILE_FILE=~/.bash_profile
+TEMP_FILE=~/.ios-crash-profile.tmp
+
+sudo cp $SYMBOL_CRASH_FILE /usr/sbin/ios-crash
+sed -e '/export DEVELOPER_DIR/d' $PROFILE_FILE  > $TEMP_FILE
+echo 'export DEVELOPER_DIR=/Applications/XCode.app/Contents/Developer' >> $TEMP_FILE
+cp $PROFILE_FILE $PROFILE_FILE.bak
+cp $TEMP_FILE $PROFILE_FILE
+rm $TEMP_FILE
+
+echo 'Install done!'
+echo '******'
+echo 'Path : /usr/sbin/ios-crash'
+echo 'Usage : ios-crash [Crash File] [.dSYM File]'
+echo 'Notice : The Crash File and .dSYM File must have the same version'
