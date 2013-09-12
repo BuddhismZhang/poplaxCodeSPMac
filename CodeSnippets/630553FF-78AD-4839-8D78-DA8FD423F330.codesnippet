@@ -6,7 +6,7 @@
 	<string>pro</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic&lt;#type modify#&gt;) &lt;#params#&gt;;</string>
