@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>minit</string>
+	<string>initmark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -15,7 +15,17 @@
 
 
 #pragma mark -
-#pragma mark Instance Methods
+#pragma mark Accessor Methods
+
+
+
+#pragma mark -
+#pragma mark Public Methods
+
+
+
+#pragma mark -
+#pragma mark Private Methods
 
 
 

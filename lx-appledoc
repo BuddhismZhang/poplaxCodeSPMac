@@ -11,5 +11,5 @@ else
 	then
 		mkdir "$LX_SOURCE_CODE"/$LX_DEFAULT_DOC_NAME  
 	fi
-	appledoc . -p$1 -v$2 -c$3 --no-create-docset -o $LX_DEFAULT_DOC_NAME
+	appledoc -p"$1" -v"$2" -c"$3" --no-create-docset -o $LX_DEFAULT_DOC_NAME .
 fi
