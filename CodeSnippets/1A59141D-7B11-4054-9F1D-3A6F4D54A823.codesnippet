@@ -15,11 +15,6 @@
 
 
 #pragma mark -
-#pragma mark Accessor Methods
-
-
-
-#pragma mark -
 #pragma mark Public Methods
 
 
@@ -30,12 +25,17 @@
 
 
 #pragma mark -
-#pragma mark Delegate Methods
+#pragma mark Accessor Methods
 
 
 
 #pragma mark -
 #pragma mark Button Action Methods
+
+
+
+#pragma mark -
+#pragma mark Delegate Methods
 
 
 
