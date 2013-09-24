@@ -143,7 +143,7 @@ cmt_star_cont                 = True     # Whether to put a star on subsequent c
 # add by poplax
 sp_assign                    			 = force
 # The span for aligning variable definitions (0=don't align)
-align_var_def_span                       = 4 # number
+align_var_def_span                       = 0 # number
 
 # How to align the star in variable definitions.
 #  0=Part of the type     'void *   foo;'
@@ -202,7 +202,7 @@ align_pp_define_span                     = 20       # number
 # Align macro functions and variables together
 align_pp_define_together                 = true
 
-sp_after_oc_property                     = remove
+sp_after_oc_property                     = force
 
 # Add or remove space after the colon in immutable dictionary expression
 # 'NSDictionary *test = @{@"foo" :@"bar"};'
