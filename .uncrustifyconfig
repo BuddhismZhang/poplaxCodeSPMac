@@ -46,10 +46,10 @@ nl_after_func_body    = 2
 #
 
 mod_paren_on_return                       = ignore # "return 1;" vs "return (1);"
-mod_full_brace_if                         = ignore    # "if (a) a--;" vs "if (a) { a--; }"
+mod_full_brace_if                         = force    # "if (a) a--;" vs "if (a) { a--; }"
 mod_full_brace_for                        = add       # "for () a--;" vs "for () { a--; }"
-mod_full_brace_do                         = ignore # "do a--; while ();" vs "do { a--; } while ();"
-mod_full_brace_while                      = remove # "while (a) a--;" vs "while (a) { a--; }"
+mod_full_brace_do                         = force  # "do a--; while ();" vs "do { a--; } while ();"
+mod_full_brace_while                      = force  # "while (a) a--;" vs "while (a) { a--; }"
 mod_full_brace_nl                         = 3          # don't remove if more than 3 newlines
 mod_add_long_ifdef_endif_comment          = 20
 mod_add_long_ifdef_else_comment           = mod_add_long_ifdef_else_comment
@@ -143,7 +143,7 @@ cmt_star_cont                 = True     # Whether to put a star on subsequent c
 # add by poplax
 sp_assign                    			 = force
 # The span for aligning variable definitions (0=don't align)
-align_var_def_span                       = 4 # number
+align_var_def_span                       = 0 # number
 
 # How to align the star in variable definitions.
 #  0=Part of the type     'void *   foo;'
@@ -202,7 +202,7 @@ align_pp_define_span                     = 20       # number
 # Align macro functions and variables together
 align_pp_define_together                 = true
 
-sp_after_oc_property                     = remove
+sp_after_oc_property                     = force
 
 # Add or remove space after the colon in immutable dictionary expression
 # 'NSDictionary *test = @{@"foo" :@"bar"};'
