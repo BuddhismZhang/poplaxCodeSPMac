@@ -219,10 +219,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="pro" value="@property (nonatomic, $TYPE$) $DECLARATION$ $VAR$;&#10;$END$" description="@property smart" toReformat="false" toShortenFQNames="true">
+  <template name="pro" value="@property (nonatomic, $TYPE$) $DECLARATION$;&#10;$END$" description="@property smart" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
     <variable name="DECLARATION" expression="" defaultValue="&quot;typevar&quot;" alwaysStopAt="true" />
-    <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
