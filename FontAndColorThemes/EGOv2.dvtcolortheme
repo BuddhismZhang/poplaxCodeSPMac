@@ -31,7 +31,7 @@
 	<key>DVTDebuggerInstructionPointerColor</key>
 	<string>0.705792 0.8 0.544 1</string>
 	<key>DVTSourceTextBackground</key>
-	<string>0.0762147 0.0762293 0.0762122 1</string>
+	<string>0.0864584 0.0874522 0.0874522 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextInsertionPointColor</key>
@@ -92,51 +92,51 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.character</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>Menlo-Regular - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.number</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.string</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 		<key>xcode.syntax.url</key>
-		<string>AndaleMono - 13.0</string>
+		<string>SourceCodePro-Medium - 14.0</string>
 	</dict>
 </dict>
 </plist>

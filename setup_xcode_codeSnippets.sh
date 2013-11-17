@@ -1,4 +1,5 @@
 #!/bin/bash
+# setup my XCode and AppCode environment
 # Test on Xcode4.x and Xcode5-DP 
 # by Poplax[linjiang9999@gmail.com]
 
