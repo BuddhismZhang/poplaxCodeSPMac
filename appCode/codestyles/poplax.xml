@@ -8,6 +8,8 @@
     <option name="FUNCTION_PARAMETERS_NEW_LINE_BEFORE_RPAR" value="true" />
     <option name="FUNCTION_CALL_ARGUMENTS_NEW_LINE_BEFORE_RPAR" value="true" />
     <option name="ALIGN_DICTIONARY_PAIR_VALUES" value="true" />
+    <option name="SPACE_BEFORE_PROPERTY_ATTRIBUTES_PARENTHESES" value="true" />
+    <option name="DISCHARGED_SHORT_TERNARY_OPERATOR" value="true" />
   </Objective-C>
   <Objective-C-extensions>
     <option name="GENERATE_INSTANCE_VARIABLES_FOR_PROPERTIES" value="ASK" />
@@ -44,6 +46,7 @@
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
     <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
     <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />

@@ -11,6 +11,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -30,6 +31,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -46,6 +48,7 @@
       <option name="XML" value="false" />
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_EXPRESSION" value="true" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -64,6 +67,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -84,6 +88,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -104,6 +109,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -124,6 +130,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -146,6 +153,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -164,6 +172,7 @@
       <option name="objc" value="false" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -182,6 +191,7 @@
       <option name="objc" value="false" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -200,6 +210,7 @@
       <option name="objc" value="false" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -208,10 +219,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="pro" value="@property (nonatomic, $TYPE$) $DECLARATION$ $VAR$;$END$" description="@property smart" toReformat="true" toShortenFQNames="true">
+  <template name="pro" value="@property (nonatomic, $TYPE$) $DECLARATION$;&#10;$END$" description="@property smart" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
     <variable name="DECLARATION" expression="" defaultValue="&quot;typevar&quot;" alwaysStopAt="true" />
-    <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -221,6 +231,7 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -239,6 +250,7 @@
       <option name="objc" value="false" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -257,6 +269,7 @@
       <option name="objc" value="false" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -274,6 +287,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -291,6 +305,7 @@
       <option name="objc" value="false" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -310,6 +325,7 @@
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="true" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -329,6 +345,7 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -349,6 +366,7 @@
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="true" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -367,6 +385,7 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -385,6 +404,7 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="true" />
       <option name="OC_EXPRESSION" value="true" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -405,6 +425,7 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="true" />
       <option name="OC_EXPRESSION" value="true" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -423,6 +444,7 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="true" />
       <option name="OC_EXPRESSION" value="true" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -431,7 +453,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="mev" value="- (void)$METHOD$;$END$&#10;" description="New Method Interface Declare" toReformat="true" toShortenFQNames="true">
+  <template name="mev" value="- (void)$METHOD$&#10;" description="New Method Interface Declare" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
@@ -442,6 +464,7 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -450,9 +473,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="meri" value="- ($RETURNTYPE$)$METHOD$&#10;" description="New Method Implementation Return id" toReformat="true" toShortenFQNames="true">
+  <template name="men" value="- ($RETURNTYPE$)$METHOD$" description="New Method Declare With Return Id" toReformat="false" toShortenFQNames="true">
     <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="" defaultValue="&quot;Return&quot;" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="&quot;returnType&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -462,26 +485,7 @@
       <option name="OC_DECLARATION" value="true" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="OTHER" value="false" />
-    </context>
-  </template>
-  <template name="mer" value="- ($RETURNTYPE$)$METHOD$;&#10;$END$" description="New Method Declare With Return Id" toReformat="true" toShortenFQNames="true">
-    <variable name="METHOD" expression="" defaultValue="&quot;NewMethod&quot;" alwaysStopAt="true" />
-    <variable name="RETURNTYPE" expression="" defaultValue="&quot;Return&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="objc" value="false" />
-      <option name="OC_DECLARATION" value="true" />
-      <option name="OC_STATEMENT" value="false" />
-      <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -500,6 +504,7 @@
       <option name="objc" value="false" />
       <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -519,6 +524,7 @@
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="true" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -527,9 +533,10 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="dl" value="DLog(@&quot;+++++++ $LOGVAR$ : %$LOGSTRING$ +++++++&quot;, $LOGVAR$);$END$" description="DLog With Format" toReformat="true" toShortenFQNames="true">
+  <template name="dl" value="DLog(@&quot;+++++++ $LOG$ : %$LOGSTRING$ +++++++&quot;, $LOGVAR$);$END$" description="DLog With Format" toReformat="false" toShortenFQNames="true">
     <variable name="LOGVAR" expression="suggestVariableName()" defaultValue="&quot;LogVar&quot;" alwaysStopAt="true" />
-    <variable name="LOGSTRING" expression="variableOfType()" defaultValue="&quot;@&quot;" alwaysStopAt="true" />
+    <variable name="LOG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOGSTRING" expression="" defaultValue="&quot;@&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -539,6 +546,65 @@
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="true" />
       <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ma" value="#pragma mark - $END$" description="mark on line" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="mei" value="- (id)init&#10;{&#10;    if(self = [super init])&#10;    {&#10;        $END$&#10;    }&#10;    return self;&#10;}" description="method init" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="if" value="if ($CONDITION$) {&#10;    $END$&#10;}" description="If Condition statement" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="suggestVariableName()" defaultValue="condition" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="true" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="LUA" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
