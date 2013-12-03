@@ -35,7 +35,7 @@
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextInsertionPointColor</key>
-	<string>1 1 1 1</string>
+	<string>1 0 0 1</string>
 	<key>DVTSourceTextInvisiblesColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextSelectionColor</key>
@@ -47,9 +47,9 @@
 		<key>xcode.syntax.character</key>
 		<string>0.616 0.499 0.951 1</string>
 		<key>xcode.syntax.comment</key>
-		<string>0.376787 0.347034 0.374695 1</string>
+		<string>0.498039 0.498039 0.498039 1</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>0.376787 0.347034 0.374695 1</string>
+		<string>0.498039 0.498039 0.498039 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
 		<string>0.821322 0.582177 0.327514 1</string>
 		<key>xcode.syntax.identifier.class</key>
@@ -92,51 +92,51 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.character</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.number</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.string</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 		<key>xcode.syntax.url</key>
-		<string>AndaleMono - 12.0</string>
+		<string>DejaVuSansMono - 12.0</string>
 	</dict>
 </dict>
 </plist>
