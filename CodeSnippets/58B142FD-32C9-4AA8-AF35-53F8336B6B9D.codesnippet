@@ -9,21 +9,19 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static WMLaoHuImageCache *sharedInstance = nil;
-+ (WMLaoHuImageCache *)sharedInstance
+	<string>static &lt;#Your NSObject#&gt; *sharedInstance = nil;
+
++ (&lt;#Your NSObject#&gt; *)sharedInstance
 {
-    @synchronized(self)
-    {
-        static dispatch_once_t pred;
-        
-        dispatch_once(&amp;pred, ^{
-            sharedInstance = [[self alloc] init];
-        });
-    }
+    static dispatch_once_t pred;
+    
+    dispatch_once(&amp;pred, ^{
+        sharedInstance = [[self alloc] init];
+    });
     return sharedInstance;
 }
 
-+ (id)allocWithZone:(NSZone *)zone
++ (&lt;#Your NSObject#&gt; *)allocWithZone:(NSZone *)zone
 {
     @synchronized(self)
     {
@@ -35,7 +33,7 @@
     return nil;
 }
 
-- (id)copyWithZone:(NSZone *)zone
+- (&lt;#Your NSObject#&gt; *)copyWithZone:(NSZone *)zone
 {
     return self;
 }

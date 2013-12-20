@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cmf</string>
+	<string>cm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- @brief &lt;#comment#&gt;
- @param &lt;#param#&gt;
- @return &lt;#return#&gt;
- */</string>
+	<string>/**&lt; &lt;#comment#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9686F1D3-A379-4930-AE22-7101D6118014</string>
+	<string>F1612B1B-4D5B-4317-A80B-3A08136F20BE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Comment in Interface and Implementation</string>
+	<string>Property Comment</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Function Comment</string>
+	<string>Property Comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
