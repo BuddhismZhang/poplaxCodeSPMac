@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cmf</string>
+	<string>de</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- @brief &lt;#comment#&gt;
- @param &lt;#param#&gt;
- @return &lt;#return#&gt;
- */</string>
+	<string>- (void)dealloc
+{
+    &lt;#deallocations#&gt;
+    
+    [super dealloc];
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9686F1D3-A379-4930-AE22-7101D6118014</string>
+	<string>53E75560-A82B-4241-BCA4-5B393F236CC5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Comment in Interface and Implementation</string>
+	<string>Dealloc Method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Function Comment</string>
+	<string>Dealloc Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

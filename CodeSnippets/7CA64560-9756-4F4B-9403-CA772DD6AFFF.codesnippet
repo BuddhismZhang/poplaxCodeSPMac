@@ -3,26 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cmf</string>
+	<string>indi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- @brief &lt;#comment#&gt;
- @param &lt;#param#&gt;
- @return &lt;#return#&gt;
- */</string>
+	<string>- (id)initWithDictionary:(NSDictionary *)dic
+{
+    [dic retain];
+    if (self = [super &lt;#Super Method#&gt;]) {
+        &lt;#statements#&gt;
+    }
+    [dic release];
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9686F1D3-A379-4930-AE22-7101D6118014</string>
+	<string>7CA64560-9756-4F4B-9403-CA772DD6AFFF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Comment in Interface and Implementation</string>
+	<string>Init Dictionary</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Function Comment</string>
+	<string>Init Dictionary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

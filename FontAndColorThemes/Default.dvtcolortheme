@@ -92,51 +92,51 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.character</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>Courier-Bold - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.number</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.string</key>
-		<string>Courier-Oblique - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 		<key>xcode.syntax.url</key>
-		<string>Courier - 11.0</string>
+		<string>AndaleMono - 14.0</string>
 	</dict>
 </dict>
 </plist>
