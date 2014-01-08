@@ -1,0 +1,4 @@
+#!/bin/sh
+
+pbpaste | python -m json.tool > ~/temp/formatted.json
+cat ~/temp/formatted.json

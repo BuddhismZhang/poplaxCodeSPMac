@@ -19,7 +19,7 @@
 	<key>DVTConsoleExectuableInputTextFont</key>
 	<string>Menlo-Regular - 13.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
-	<string>0.747128 0.850053 0.898781 1</string>
+	<string>0.747128 0.850053 0.898781 0.85</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
 	<string>Menlo-Bold - 13.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
