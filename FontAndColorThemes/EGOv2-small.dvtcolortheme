@@ -39,7 +39,7 @@
 	<key>DVTSourceTextInvisiblesColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextSelectionColor</key>
-	<string>0.243 0.276 0.277 1</string>
+	<string>0.29773 0.29773 0.29773 1</string>
 	<key>DVTSourceTextSyntaxColors</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
@@ -92,51 +92,51 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.character</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.number</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.string</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 		<key>xcode.syntax.url</key>
-		<string>AndaleMono - 10.0</string>
+		<string>AndaleMono - 11.0</string>
 	</dict>
 </dict>
 </plist>
