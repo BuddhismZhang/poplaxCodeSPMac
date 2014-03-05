@@ -1,5 +1,6 @@
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
 export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/Applications/Adobe\ Flash\ Builder\ 4.7/eclipse/plugins/com.adobe.flash.compiler_4.7.0.349722/AIRSDK/bin/
 #export PATH=$PATH:/opt/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib
 
 export CLICOLOR=1
